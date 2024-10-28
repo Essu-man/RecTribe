@@ -6,7 +6,7 @@ const Welcome = ({ navigation }) => {
     <View style={styles.container}>
       <Text style={styles.title}>RecTribe</Text>
       <Text style={styles.subtitle}>Learn your favourite song lyrics</Text>
-      <Image source={require('../assets/images/adaptive-icon.png')} style={styles.image} /> {/* Replace with your local image path */}
+      <Image source={require('../assets/images/pngwing.com-10 1 (1).png')} style={styles.image} />
       <TouchableOpacity style={styles.signInButton} onPress={() => navigation.navigate('Login')}>
         <Text style={styles.signInText}>Sign In</Text>
       </TouchableOpacity>
