@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import { Image, StyleSheet, Text, TextInput, TouchableOpacity, View } from 'react-native';
 
 const SignUp = () => {
-  const [profileImage, setProfileImage] = useState<string | null>(null);
+  const [profileImage, setProfileImage] = useState(null);
 
   const handleProfileImagePick = async () => {
     // Ask for permission to access the library
@@ -75,8 +75,8 @@ const styles = StyleSheet.create({
     marginBottom: 20,
   },
   profilePicture: {
-    width: 100,
-    height: 100,
+    width: 450,
+    height: 450,
     borderRadius: 50,
   },
   input: {
